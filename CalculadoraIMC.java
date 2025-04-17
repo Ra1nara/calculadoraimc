@@ -22,21 +22,21 @@ public class CalculadoraIMC {
         System.out.printf("O seu IMC é de: %.2f\n", imc);
 
         if(imc<18.5){
-            System.out.println("Voce esta abaixo do peso.");
+            System.out.println("Classificação: Abaixo do peso");
 
         }else if(imc<24.9){
-            System.out.println("Voce esta com  o peso normal.");
+            System.out.println("Classificação: Peso normal.");
         }else if(imc< 29.9){
-            System.out.println("Voce esta com sobrepeso.");
+            System.out.println("Classificação: Sobrepeso.");
         } else if(imc<34.9){
-            System.out.println("Voce esta com obesidade grau 1.");
+            System.out.println("Classificação: Obesidade grau 1.");
         }else if(imc<39.9){
-            System.out.println("Voce esta com obesidade grau 2.");
+            System.out.println("Classificação: Obesidade grau 2.");
         }else{
-            System.out.println("Voce esta com obesidade grau 3.");
+            System.out.println("Classificação: Obesidade grau 3.");
         }
         
-
+        scanner.close();
 
 
     }
