@@ -1,4 +1,6 @@
 
+
+
 import java.util.Scanner;
 
 public class CalculadoraIMC {
@@ -35,9 +37,20 @@ public class CalculadoraIMC {
         }else{
             System.out.println("Classificação: Obesidade grau 3.");
         }
+
+        System.out.println("%s, o seu IMC é de: %.2f\n", nome, imc);
+        System.out.println("\nClassificação IMC:");
+        System.out.println("Menor que 18.5     -> Abaixo do peso");
+        System.out.println("Entre 18.5 e 24.9  -> Peso normal");
+        System.out.println("Entre 25.0 e 29.9  -> Sobrepeso");
+        System.out.println("Entre 30.0 e 34.9  -> Obesidade grau 1");
+        System.out.println("Entre 35.0 e 39.9  -> Obesidade grau 2");
+        System.out.println("40.0 ou mais       -> Obesidade grau 3");
+
         
         scanner.close();
 
 
     }
 }
+
