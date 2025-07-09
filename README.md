@@ -12,7 +12,7 @@
 </p>
 
 <p align="center" >
-     <a href="#">📱 Visite o Projeto</a>
+     <a href="https://ra1nara.github.io/calculadoraimc/">📱 Visite o Projeto</a>
 </p>
 
 <h2 id="layout">🎨 Layout</h2>
